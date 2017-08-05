@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.5.png)
+![](headings/1.5.png)
 
 In this episode, you'll learn all about **extends** and how they're different to **mixins**, how to create and extend placeholder selectors, and about some of the pros and cons of using extend in real projects. To understand extending selectors, let's first have a quick recap of the mixin directive.
 
