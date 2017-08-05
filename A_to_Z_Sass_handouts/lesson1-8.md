@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.8.png)
+![](headings/1.8.png)
 
 **Mixins** are a Sass feature that enables blocks of code to be re-used with
 slight variations. They are really powerful and are a core tool in
