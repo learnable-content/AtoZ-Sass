@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.7.png)
+![](headings/1.7.png)
 
 In this episode we'll be diving into two more command line tools that can help
 you compile Sass. They both do a *lot* more than just compile Sass so
