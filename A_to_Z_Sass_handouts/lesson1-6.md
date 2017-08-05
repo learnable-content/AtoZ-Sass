@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.6.png)
+![](headings/1.6.png)
 
 **Functions** are a core concept in many programming languages. But creating and using our own custom functions isn't something we can do in normal CSS. However, Sass brings the power of programming to the table and it does allow us to create our own custom functions for performing all sort of different common everyday tasks.
 
