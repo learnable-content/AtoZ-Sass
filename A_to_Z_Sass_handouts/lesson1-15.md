@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.15.png)
+![](headings/1.15.png)
 
 Over the first half of this series, we've looked at the some of
 the major features of Sass and a number of practical examples of putting
