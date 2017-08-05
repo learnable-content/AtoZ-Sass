@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.12.png)
+![](headings/1.12.png)
 
 CSS is a declarative language rather than a programming language and
 many purists think that it should be kept that way.
