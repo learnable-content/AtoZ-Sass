@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.10.png)
+![](headings/1.10.png)
 
 Having embraced the power of Sass and started to use variables to
 configure various settings in your project - such as colours, font sizes
