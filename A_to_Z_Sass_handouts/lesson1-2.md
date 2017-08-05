@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.2.png)
+![](headings/1.2.png)
 
 **BEM** is a system of naming classes that encourages the good practice of writing modular code. It can really help to bring structure and meaning to the way that we name things, which is often quite a difficult practice. And BEM is something that I use consistently in my day to day client work.
 
