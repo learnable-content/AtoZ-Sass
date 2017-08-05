@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.11.png)
+![](headings/1.11.png)
 
 Animations are great. I covered them back in our first AtoZ
 CSS series and now we'll look at the Sassy variety too!
