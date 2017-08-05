@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.17.png)
+![](headings/1.17.png)
 
 The process of making a design responsive is complex and often requires
 a whole load of new styling rules for different sized devices to 
