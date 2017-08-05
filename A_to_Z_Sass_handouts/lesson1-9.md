@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.9.png)
+![](headings/1.9.png)
 
 **Variables** can be used to set values of CSS properties but if a project
 calls for using a variable in a selector or property name, we need
