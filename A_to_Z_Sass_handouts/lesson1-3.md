@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.3.png)
+![](headings/1.3.png)
 
 **Color** is hugely important for adding life and visual interest to a project and is an invaluable tool for highlighting parts of the interface that a user can interact with. In this practical episode we're going to talk all about manipulating colors programatically with Sass. 
 
