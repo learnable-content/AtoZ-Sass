@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.18.png)
+![](headings/1.18.png)
 
 
 In this series we've looked at all the fundamental, powerful features of
