@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.4.png)
+![](headings/1.4.png)
 
 Sass brings a lot more power to CSS and starts to make it feel like a real programming language rather than just a series of property and value declarations. One key feature that enables this programmatic field is **Sass variables** which can hold a number of different types of data.
 
