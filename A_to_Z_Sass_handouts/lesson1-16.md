@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.16.png)
+![](headings/1.16.png)
 
 Today we're going to talk about Sass performance. This is a tricky
 subject and one that is often very specific to each individual project,
