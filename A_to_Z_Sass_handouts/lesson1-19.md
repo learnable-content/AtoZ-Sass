@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.19.png)
+![](headings/1.19.png)
 
 When compiling Sass you might have noticed two files are generated. One
 is your compiled CSS file that ends in a `.css` file extension. The
