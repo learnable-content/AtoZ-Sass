@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.14.png)
+![](headings/1.14.png)
 
 Sass is an extension language for CSS but it's popularity has seen the
 birth of a number of extensions to Sass itself in the form of mixin
