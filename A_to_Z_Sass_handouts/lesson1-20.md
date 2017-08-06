@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.20.png)
+![](headings/1.20.png)
 
 Typography is not just about choosing some fancy fonts, good typography
 is all about having a system. Design is not decorating, it's about
