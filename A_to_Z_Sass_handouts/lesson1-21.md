@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.21.png)
+![](headings/1.21.png)
 
 In a previous video about creating custom functions in Sass, we created
 a function that converted pixel values to rem values by manipulating
