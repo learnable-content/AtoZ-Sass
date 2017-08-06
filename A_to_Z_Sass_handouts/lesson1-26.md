@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.26.png)
+![](headings/1.26.png)
 
 There aren't many options when it comes to the letter Z so we're
 revisiting a classic: z-index.
