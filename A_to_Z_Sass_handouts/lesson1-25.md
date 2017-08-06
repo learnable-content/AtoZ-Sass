@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.25.png)
+![](headings/1.25.png)
 
 Setting up a new project can be a time consuming endeavour. The world of
 front-end web development these days is much more complex than it used
