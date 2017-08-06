@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.24.png)
+![](headings/1.24.png)
 
 Today we're talking about extending Sass. This is an advanced topic but
 one that can be very useful when you need to leverage more powerful
