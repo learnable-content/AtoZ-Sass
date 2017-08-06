@@ -1,4 +1,4 @@
-![](A_to_Z_Sass_handouts/headings/1.22.png)
+![](headings/1.22.png)
 
 We've been using Sass variables throughout this series. We've discussed
 the various different datatypes and you should now be comfortable
