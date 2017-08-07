@@ -1,0 +1,16 @@
+body {
+	display:flex;
+	height:100vh;
+	margin:0;
+
+	&:after {
+		content:"#{ reverse( 'SitePoint' ) }";
+
+		display:block;
+		margin:auto;
+
+		color:#339bcb;
+		font-size:3em;
+		font-family:sans-serif;
+	}
+}

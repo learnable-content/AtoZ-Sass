@@ -1,0 +1,72 @@
+// Box Component
+$base-font-size: 16px;
+
+
+@function strip-units( $length ) {
+	@return $length / ( ( $length * 0 ) + 1 );
+}
+
+
+@function rem( $value ) {
+
+	@if unit( $value ) == 'px' or unitless( $value ){
+
+		@debug 'Initial value: #{ $value }';
+		$value: strip-units( $value );
+		@debug 'Stripped units value: #{ $value }';
+
+		$base-font-size: strip-units( $base-font-size );
+
+		@debug ( $value / $base-font-size ) * 1rem;
+		@return ( $value / $base-font-size ) * 1rem;
+	} @else {
+		@error inspect( $value ) + 'Only unitless or px values should be passed to `rem()`';
+	}
+}
+
+
+$layers: (
+	modal   : 9100,
+	overlay : 9000,
+	header  : 1000,
+	5       : 500,
+	4       : 400,
+	3       : 300,
+	2       : 200,
+	1       : 100,
+	0       : 0,
+	behind  : -1
+);
+
+@function layer( $name ) {
+
+	@if map-has-key( $layers, $name ) {
+		@return map-get( $layers, $name );
+	} @else {
+		@error "layer #{$name} not found in #{map-keys($layers)}";
+	}
+
+}
+
+.box {
+	z-index:layer( 5 );
+	max-width:600px;
+	padding:rem( 20 );
+
+	background:$color-grey;
+	border:1px solid $color-border;
+	box-shadow:1em 1em 0 lighten( rgba( $color-brand, 0.6 ), 30% );
+}
+.box__title {
+	font-size:2.5em;
+	color:$color-brand;
+	margin:0 0 1rem;
+
+	 img {
+		 vertical-align:top;
+	 }
+}
+.box__content {
+	max-width:32em;
+	line-height:1.5;
+}
