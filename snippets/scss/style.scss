@@ -1,0 +1,22 @@
+// Site settings
+
+$primary-color: red !default;
+$secondary-color: blue !default;
+$base-font-size: 16px !default;
+$h1-font-size: 50px !default;
+
+// Overrides
+$primary-color: white;
+$base-font-size: 18px;
+$h1-font-size: 80px;
+
+
+body {
+	font-size: $base-font-size;
+}
+h1 {
+	padding:1em;
+	color: $primary-color;
+	background: $secondary-color;
+	font-size: $h1-font-size;
+}
