@@ -1,0 +1,15 @@
+
+%uppercase-letter-spacing {
+	text-transform:uppercase;
+	letter-spacing: 2px;
+}
+.page-title {
+	@extend %uppercase-letter-spacing;
+}
+.intro span {
+	@extend %uppercase-letter-spacing;	
+}
+.highlight {
+	@extend %uppercase-letter-spacing;
+	font-weight: bold;
+}
