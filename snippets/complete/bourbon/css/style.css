@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #f9f9f9;
+  font-family: 'Avenir Next', 'Avenir'; }
+
+.button {
+  float: left;
+  color: #fff;
+  background: #999;
+  padding: 0.5em 2em;
+  text-decoration: none; }
+
+.button-rounded {
+  border-radius: 4px; }
+
+.blue {
+  background: #38ceea; }
+
+.pink {
+  background: #cc3f85; }
+
+.green {
+  background: #80c11b; }
+
+.purple {
+  background: #AE81FF; }
+
+.orange {
+  background: #FFAB1D; }
+
+.contact {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  background: #fff; }
+
+.contact__title {
+  margin: 0 0 0.5em; }
+
+.contact__container::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+.contact__intro {
+  float: left;
+  width: 50%;
+  padding: 1rem 2rem 0 0; }
+  .contact__intro p:first-child {
+    margin-top: 0; }
+
+.contact__form {
+  float: right;
+  width: 50%;
+  padding: 1rem 0 0 2rem;
+  border-left: 1px solid #ddd; }
+  .contact__form input[type="color"], .contact__form input[type="date"], .contact__form input[type="datetime"], .contact__form input[type="datetime-local"], .contact__form input[type="email"], .contact__form input[type="month"], .contact__form input[type="number"], .contact__form input[type="password"], .contact__form input[type="search"], .contact__form input[type="tel"], .contact__form input[type="text"], .contact__form input[type="time"], .contact__form input[type="url"], .contact__form input[type="week"], .contact__form input:not([type]), .contact__form textarea {
+    display: block;
+    width: 100%;
+    padding: 0.25em 0.5em;
+    color: #333;
+    font-size: 1rem;
+    font-family: inherit;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    transition: 0.3s; }
+    .contact__form input[type="color"]:hover, .contact__form input[type="color"]:focus, .contact__form input[type="date"]:hover, .contact__form input[type="date"]:focus, .contact__form input[type="datetime"]:hover, .contact__form input[type="datetime"]:focus, .contact__form input[type="datetime-local"]:hover, .contact__form input[type="datetime-local"]:focus, .contact__form input[type="email"]:hover, .contact__form input[type="email"]:focus, .contact__form input[type="month"]:hover, .contact__form input[type="month"]:focus, .contact__form input[type="number"]:hover, .contact__form input[type="number"]:focus, .contact__form input[type="password"]:hover, .contact__form input[type="password"]:focus, .contact__form input[type="search"]:hover, .contact__form input[type="search"]:focus, .contact__form input[type="tel"]:hover, .contact__form input[type="tel"]:focus, .contact__form input[type="text"]:hover, .contact__form input[type="text"]:focus, .contact__form input[type="time"]:hover, .contact__form input[type="time"]:focus, .contact__form input[type="url"]:hover, .contact__form input[type="url"]:focus, .contact__form input[type="week"]:hover, .contact__form input[type="week"]:focus, .contact__form input:not([type]):hover, .contact__form input:not([type]):focus, .contact__form textarea:hover, .contact__form textarea:focus {
+      background: #fff;
+      outline: 0; }
+  .contact__form textarea {
+    min-height: 150px; }
+
+.form__field {
+  margin: 0 0 1rem; }
+
+.banner {
+  position: absolute;
+  top: 2rem;
+  right: -2rem;
+  display: block;
+  width: 200px;
+  padding: 0.5em 2em;
+  color: #fff;
+  background: #cc3f85;
+  border: 1px solid #822352;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
