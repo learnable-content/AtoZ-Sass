@@ -1,0 +1,21 @@
+{
+  "name": "simple-sass-project-bower",
+  "authors": [
+    "Guy Routledge <mail@guyroutledge.co.uk>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "modular-scale": "^3.0.2"
+  }
+}
