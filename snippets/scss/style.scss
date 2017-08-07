@@ -1,0 +1,16 @@
+$base-font-size: 16px;
+
+@function strip-units( $length ) {
+	@return $length / (( $length * 0 ) + 1);
+}
+@function px-to-rem( $value ) {
+	$value: strip-units( $value );
+	$base-font-size: strip-units( $base-font-size );
+
+	@return ( $value / $base-font-size ) * 1rem;
+}
+
+.element {
+	font-size: px-to-rem( 20px );
+	padding: px-to-rem( 15 );
+}
