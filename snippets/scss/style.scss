@@ -1,0 +1,44 @@
+@import 'page-styles';
+
+.media {
+	// or alternative clearfix technique
+	overflow:hidden;
+}
+.media__image {
+	float:left;
+	margin-right:1em;
+}
+.media__image img { 
+	display:block; 
+}
+.media--flipped .media__image {
+	float:right;
+	margin-left:1em;
+}
+.media__content {
+	display:table-cell;
+	width:10000px;
+}
+
+// alternative (but less readable) approach
+
+.media {
+	overflow:hidden;
+
+	&__image {
+		float:left;
+		margin-right:1em;
+
+		img { 
+			display:block; 
+		}
+		.media--flipped & {
+			float:right;
+			margin-left:1em;
+		}
+	}
+	&__content {
+		display:table-cell;
+		width:10000px;
+	}
+}
