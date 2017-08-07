@@ -1,0 +1,26 @@
+@function strip-units( $length ) {
+	@return $length / ( ( $length * 0 ) + 1 );
+}
+@function px-to-rem( $value ) {
+	@warn 'The `px-to-rem()` function has been deprecated and will be
+	removed in a future version. Use `rem()` instead.';
+
+	@return rem( $value );
+}
+@function rem( $value ) {
+	@if unitless( $value ) or unit( $value ) == 'px' {
+
+		@debug 'Initial value: #{ $value }';
+		$value: strip-units( $value );
+		@debug 'Stripped units value: #{ $value }';
+		
+		$base-font-size: strip-units( $base-font-size );
+
+		@return ( $value / $base-font-size ) * 1rem;
+	} @else {
+		@error 'Only unitless or px values should be passed to rem()';
+	}
+}
+h1 {
+	font-size: px-to-rem( 64px );
+}
