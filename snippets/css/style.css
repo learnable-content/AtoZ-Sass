@@ -1,0 +1,33 @@
+body {
+  background: #f9f9f9;
+  font-family: 'Avenir Next', 'Avenir'; }
+
+.button {
+  float: left;
+  color: #fff;
+  background: #999;
+  padding: 0.5em 2em;
+  text-decoration: none; }
+
+.button-rounded {
+  border-radius: 4px; }
+
+.blue {
+  background: #38ceea; }
+
+.pink {
+  background: #cc3f85; }
+
+.green {
+  background: #80c11b; }
+
+.purple {
+  background: #AE81FF; }
+
+.orange {
+  background: #FFAB1D; }
+
+.button + .button {
+  margin-left: 1em; }
+
+/*# sourceMappingURL=style.css.map */

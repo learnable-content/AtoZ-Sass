@@ -1,0 +1,25 @@
+@import 'page-styles';
+
+// add margin to the left and remove from the first
+.button {
+	margin-left:1em;
+
+	&:first-child {
+		margin-left:0;
+	}
+}
+// or add margin to the right and remove from the last
+.button {
+	margin-right:1em;
+
+	&:last-child {
+		margin-left:0;
+	}
+}
+
+// use the double ampersand selector
+.button {
+	& + & {
+		margin-left:1em;
+	}
+}
