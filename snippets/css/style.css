@@ -1,0 +1,207 @@
+.box {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #cc3f85; }
+  .box:nth-child(1) {
+    background-color: #303dc8; }
+  .box:nth-child(2) {
+    background-color: #c6b149; }
+  .box:nth-child(3) {
+    background-color: #3503fd; }
+  .box:nth-child(4) {
+    background-color: #c15f4a; }
+  .box:nth-child(5) {
+    background-color: #fefa80; }
+  .box:nth-child(6) {
+    background-color: #c6f8e3; }
+  .box:nth-child(7) {
+    background-color: #ae1851; }
+  .box:nth-child(8) {
+    background-color: #b7c776; }
+  .box:nth-child(9) {
+    background-color: #83a872; }
+  .box:nth-child(10) {
+    background-color: #86ee04; }
+  .box:nth-child(11) {
+    background-color: #259cea; }
+  .box:nth-child(12) {
+    background-color: #3e0aed; }
+  .box:nth-child(13) {
+    background-color: #a0f9cf; }
+  .box:nth-child(14) {
+    background-color: #fe64d7; }
+  .box:nth-child(15) {
+    background-color: #d5dc09; }
+  .box:nth-child(16) {
+    background-color: #a19e52; }
+  .box:nth-child(17) {
+    background-color: #6a3c7c; }
+  .box:nth-child(18) {
+    background-color: #cb5505; }
+  .box:nth-child(19) {
+    background-color: #a0b82d; }
+  .box:nth-child(20) {
+    background-color: #fbd86d; }
+  .box:nth-child(21) {
+    background-color: #da6951; }
+  .box:nth-child(22) {
+    background-color: #63a0c9; }
+  .box:nth-child(23) {
+    background-color: #3ce61d; }
+  .box:nth-child(24) {
+    background-color: #10a75c; }
+  .box:nth-child(25) {
+    background-color: #5ba736; }
+  .box:nth-child(26) {
+    background-color: #81c887; }
+  .box:nth-child(27) {
+    background-color: #68c0ac; }
+  .box:nth-child(28) {
+    background-color: #0bd7fd; }
+  .box:nth-child(29) {
+    background-color: #ae2702; }
+  .box:nth-child(30) {
+    background-color: #763869; }
+  .box:nth-child(31) {
+    background-color: #d18fc8; }
+  .box:nth-child(32) {
+    background-color: #92ae0d; }
+  .box:nth-child(33) {
+    background-color: #4dd730; }
+  .box:nth-child(34) {
+    background-color: #736909; }
+  .box:nth-child(35) {
+    background-color: #3c4f30; }
+  .box:nth-child(36) {
+    background-color: #c04242; }
+  .box:nth-child(37) {
+    background-color: #9bf4ce; }
+  .box:nth-child(38) {
+    background-color: #39e4e0; }
+  .box:nth-child(39) {
+    background-color: #896ac8; }
+  .box:nth-child(40) {
+    background-color: #f63562; }
+  .box:nth-child(41) {
+    background-color: #0eb123; }
+  .box:nth-child(42) {
+    background-color: #fbf571; }
+  .box:nth-child(43) {
+    background-color: #6c6774; }
+  .box:nth-child(44) {
+    background-color: #b6313d; }
+  .box:nth-child(45) {
+    background-color: #d74088; }
+  .box:nth-child(46) {
+    background-color: #b948ba; }
+  .box:nth-child(47) {
+    background-color: #cd4617; }
+  .box:nth-child(48) {
+    background-color: #a5e4f7; }
+  .box:nth-child(49) {
+    background-color: #c626ff; }
+  .box:nth-child(50) {
+    background-color: #26d115; }
+  .box:nth-child(51) {
+    background-color: #c44cb2; }
+  .box:nth-child(52) {
+    background-color: #621e7c; }
+  .box:nth-child(53) {
+    background-color: #1e5604; }
+  .box:nth-child(54) {
+    background-color: #e9d311; }
+  .box:nth-child(55) {
+    background-color: #a6d6f0; }
+  .box:nth-child(56) {
+    background-color: #e84534; }
+  .box:nth-child(57) {
+    background-color: #3a16f6; }
+  .box:nth-child(58) {
+    background-color: #2acd77; }
+  .box:nth-child(59) {
+    background-color: #499842; }
+  .box:nth-child(60) {
+    background-color: #bf2541; }
+  .box:nth-child(61) {
+    background-color: #953d60; }
+  .box:nth-child(62) {
+    background-color: #4448a2; }
+  .box:nth-child(63) {
+    background-color: #46091a; }
+  .box:nth-child(64) {
+    background-color: #455d92; }
+  .box:nth-child(65) {
+    background-color: #a1ca2b; }
+  .box:nth-child(66) {
+    background-color: #7a0217; }
+  .box:nth-child(67) {
+    background-color: #6fae08; }
+  .box:nth-child(68) {
+    background-color: #894478; }
+  .box:nth-child(69) {
+    background-color: #907052; }
+  .box:nth-child(70) {
+    background-color: #2fc927; }
+  .box:nth-child(71) {
+    background-color: #1d99c1; }
+  .box:nth-child(72) {
+    background-color: #c26a07; }
+  .box:nth-child(73) {
+    background-color: #bcf918; }
+  .box:nth-child(74) {
+    background-color: #9a7f8f; }
+  .box:nth-child(75) {
+    background-color: #dcf873; }
+  .box:nth-child(76) {
+    background-color: #126884; }
+  .box:nth-child(77) {
+    background-color: #4e4e2f; }
+  .box:nth-child(78) {
+    background-color: #06884a; }
+  .box:nth-child(79) {
+    background-color: #d09acd; }
+  .box:nth-child(80) {
+    background-color: #69f002; }
+  .box:nth-child(81) {
+    background-color: #f4c7ca; }
+  .box:nth-child(82) {
+    background-color: #6f9988; }
+  .box:nth-child(83) {
+    background-color: #0f4061; }
+  .box:nth-child(84) {
+    background-color: #2f7495; }
+  .box:nth-child(85) {
+    background-color: #23bf41; }
+  .box:nth-child(86) {
+    background-color: #82bf35; }
+  .box:nth-child(87) {
+    background-color: #430e1e; }
+  .box:nth-child(88) {
+    background-color: #f72b23; }
+  .box:nth-child(89) {
+    background-color: #2b6a39; }
+  .box:nth-child(90) {
+    background-color: #02e8f9; }
+  .box:nth-child(91) {
+    background-color: #8366e2; }
+  .box:nth-child(92) {
+    background-color: #27ba1e; }
+  .box:nth-child(93) {
+    background-color: #81ca5a; }
+  .box:nth-child(94) {
+    background-color: #c69af7; }
+  .box:nth-child(95) {
+    background-color: #8e43af; }
+  .box:nth-child(96) {
+    background-color: #f8e797; }
+  .box:nth-child(97) {
+    background-color: #25e1f3; }
+  .box:nth-child(98) {
+    background-color: #0ebe8f; }
+  .box:nth-child(99) {
+    background-color: #7f3223; }
+  .box:nth-child(100) {
+    background-color: #3be77c; }
+
+/*# sourceMappingURL=style.css.map */
