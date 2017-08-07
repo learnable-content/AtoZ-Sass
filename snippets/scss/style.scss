@@ -1,0 +1,20 @@
+
+body, .box {
+  display:flex;
+}
+.box {
+  $color: red !global;
+  width:100px;
+  height:100px;
+  background:rgba( $color, 0.2 );
+  border:5px solid $color;
+  
+  h1 {
+    $color: green !global;
+    margin:auto;
+    color:$color;
+  }
+}
+body {
+  background:rgba( $color, 0.2 );
+}
