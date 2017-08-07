@@ -1,0 +1,20 @@
+@import 'page-styles';
+
+@mixin button( $color-button ) {
+	background: linear-gradient( 
+		            $color-button,
+		            darken( $color-button, 20% )
+		        );
+	border: 1px solid darken( $color-button, 15% );
+	box-shadow: inset 0 1px lighten( $color-button, 20% );
+}
+
+.button {
+	padding: 0.5em 2em;
+
+	color: #222;
+	@include button( lightgreen );
+}
+.button--pink {
+	@include button( hotpink );
+}
