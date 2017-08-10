@@ -1,0 +1,29 @@
+.box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  opacity: 0.9;
+  font-family: Avenir; }
+
+.box1 {
+  top: 0;
+  left: 0;
+  background: #a6db29;
+  z-index: 30; }
+
+.box2 {
+  top: 50px;
+  left: 150px;
+  background: #66d9ef;
+  z-index: 10; }
+
+.box3 {
+  top: 175px;
+  left: 50px;
+  background: #ae81ff;
+  z-index: 20; }
+
+/*# sourceMappingURL=style.css.map */
