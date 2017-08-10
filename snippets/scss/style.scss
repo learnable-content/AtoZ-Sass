@@ -1,0 +1,25 @@
+@mixin uppercase-letter-spacing( $letter-spacing, $font-size ) {
+	font-size: $font-size;
+	letter-spacing: $letter-spacing;
+	text-transform: uppercase;
+}
+@mixin hover-focus-active {
+	&:hover,
+	&:focus,
+	&:active {
+		@content;
+	}
+}
+
+
+h1 {
+	@include uppercase-letter-spacing( 4px, 2rem );
+}
+a {
+	color:#f00;
+
+	@include hover-focus-active {
+		color:#fff;
+		background:#000;
+	}
+}
