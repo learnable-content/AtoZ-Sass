@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #f9f9f9;
+  font-family: 'Avenir Next', 'Avenir'; }
+
+.button {
+  margin: 1em 0;
+  color: #fff;
+  background: #999;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  font-size: 1.2em; }
+
+.button-rounded {
+  border-radius: 4px; }
+
+.blue {
+  background: #38ceea; }
+
+.pink {
+  background: #cc3f85; }
+
+.green {
+  background: #80c11b; }
+
+.purple {
+  background: #AE81FF; }
+
+.orange {
+  background: #FFAB1D; }
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background: #cc3f85;
+  animation: uydnfmoi0 5s 0 4 alternate forwards ease; }
+@keyframes uydnfmoi0 {
+  0% {
+    left: 0; }
+  100% {
+    left: 100%; } }
+
+/*# sourceMappingURL=style.css.map */

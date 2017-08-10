@@ -1,0 +1,30 @@
+@import "page-styles";
+
+@mixin animation( $properties... ) {
+	$name: unique-id();
+	@keyframes #{ $name } {
+		@content;
+	}
+	animation: #{ $name $properties };
+}
+
+.box {
+	position:absolute;
+	top:50%;
+	left:0;
+
+	width:100px;
+	height:100px;
+	background:#cc3f85;
+
+	@include animation( 5s 0 4 alternate forwards ease ) {
+		0% { left: 0 }
+		100% { left: 100% }
+	}
+	
+}
+
+
+
+
+
