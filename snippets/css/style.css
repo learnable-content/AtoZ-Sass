@@ -1,0 +1,16 @@
+body, .box {
+  display: flex; }
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 0, 0, 0.2);
+  border: 5px solid red; }
+  .box h1 {
+    margin: auto;
+    color: green; }
+
+body {
+  background: rgba(0, 128, 0, 0.2); }
+
+/*# sourceMappingURL=style.css.map */
