@@ -1,0 +1,13 @@
+.box {
+	display:inline-block;
+	width:50px;
+	height:50px;
+	background:#cc3f85;
+	@for $i from 1 through 100 {
+		&:nth-child( #{ $i } ) {
+			background-color: rgb( random( 255 ), 
+				                   random( 255 ), 
+				                   random( 255 ) );
+		}
+	}
+}
