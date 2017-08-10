@@ -1,0 +1,55 @@
+body {
+  background: #f9f9f9;
+  font-family: 'Avenir Next', 'Avenir'; }
+
+.button {
+  margin: 1em 0;
+  color: #fff;
+  background: #999;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  font-size: 1.2em; }
+
+.button-rounded {
+  border-radius: 4px; }
+
+.blue {
+  background: #38ceea; }
+
+.pink {
+  background: #cc3f85; }
+
+.green {
+  background: #80c11b; }
+
+.purple {
+  background: #AE81FF; }
+
+.orange {
+  background: #FFAB1D; }
+
+.media {
+  border: 1px solid;
+  padding: 1em; }
+
+.media__image {
+  border: 1px solid #999; }
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.button {
+  padding: 0.5em 2em;
+  color: #222;
+  background: linear-gradient(lightgreen, #38e038);
+  border: 1px solid #4ee44e;
+  box-shadow: inset 0 1px #e8fce8; }
+
+.button--pink {
+  background: linear-gradient(hotpink, #ff0381);
+  border: 1px solid #ff1d8e;
+  box-shadow: inset 0 1px #ffcfe7; }
+
+/*# sourceMappingURL=style.css.map */
