@@ -1,0 +1,126 @@
+body {
+  background: #f9f9f9;
+  font-family: 'Avenir Next', 'Avenir'; }
+
+.button {
+  float: left;
+  color: #fff;
+  background: #999;
+  padding: 0.5em 2em;
+  text-decoration: none; }
+
+.button-rounded {
+  border-radius: 4px; }
+
+.blue {
+  background: #38ceea; }
+
+.pink {
+  background: #cc3f85; }
+
+.green {
+  background: #80c11b; }
+
+.purple {
+  background: #AE81FF; }
+
+.orange {
+  background: #FFAB1D; }
+
+body {
+  max-width: 700px;
+  margin: 0 auto; }
+
+h2, h3 {
+  margin: 0 0 1em;
+  padding: 1em 0 0;
+  text-align: center; }
+
+section {
+  margin: 2rem 0 10rem; }
+
+section,
+section div {
+  background: rgba(204, 63, 133, 0.3); }
+
+.latest-video,
+.latest-blog,
+.feature__content,
+.nested-column {
+  min-height: 200px; }
+
+.latest-posts::after {
+  clear: both;
+  content: "";
+  display: block; }
+
+.latest-video,
+.latest-blog {
+  width: calc(50% - 30px);
+  float: left;
+  margin-left: 20px; }
+
+.nested-grid::after {
+  clear: both;
+  content: "";
+  display: block; }
+.nested-grid .sidebar {
+  width: calc(33.33333% - 26.66667px);
+  float: left;
+  margin-left: 20px;
+  min-height: 100px; }
+.nested-grid .main-content {
+  width: calc(66.66667% - 33.33333px);
+  float: left;
+  margin-left: 20px;
+  overflow: hidden; }
+.nested-grid .nested-container {
+  margin-left: -20px;
+  margin-right: -20px;
+  width: calc(100% + 40px); }
+  .nested-grid .nested-container::after {
+    clear: both;
+    content: "";
+    display: block; }
+.nested-grid .nested-column {
+  width: calc(50% - 30px);
+  float: left;
+  margin-left: 20px; }
+
+.article-layout::after {
+  clear: both;
+  content: "";
+  display: block; }
+
+.article-layout__hero {
+  width: calc(100% - 4rem);
+  float: left;
+  margin-left: 2rem;
+  min-height: 150px;
+  margin-bottom: 2rem; }
+
+.article-layout__sidebar {
+  width: calc(100% - 4rem);
+  float: left;
+  margin-left: 2rem;
+  min-height: 300px;
+  margin-bottom: 2rem; }
+  @media (min-width: 800px) {
+    .article-layout__sidebar {
+      width: calc(40% - 2.8rem);
+      float: left;
+      margin-left: 2rem; } }
+
+.article-layout__main {
+  width: calc(100% - 4rem);
+  float: left;
+  margin-left: 2rem;
+  min-height: 400px;
+  margin-bottom: 2rem; }
+  @media (min-width: 800px) {
+    .article-layout__main {
+      width: calc(60% - 3.2rem);
+      float: left;
+      margin-left: 2rem; } }
+
+/*# sourceMappingURL=style.css.map */

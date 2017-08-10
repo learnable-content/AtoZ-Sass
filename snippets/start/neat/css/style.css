@@ -1,0 +1,69 @@
+body {
+  background: #f9f9f9;
+  font-family: 'Avenir Next', 'Avenir'; }
+
+.button {
+  float: left;
+  color: #fff;
+  background: #999;
+  padding: 0.5em 2em;
+  text-decoration: none; }
+
+.button-rounded {
+  border-radius: 4px; }
+
+.blue {
+  background: #38ceea; }
+
+.pink {
+  background: #cc3f85; }
+
+.green {
+  background: #80c11b; }
+
+.purple {
+  background: #AE81FF; }
+
+.orange {
+  background: #FFAB1D; }
+
+body {
+  max-width: 700px;
+  margin: 0 auto; }
+
+h2, h3 {
+  margin: 0 0 1em;
+  padding: 1em 0 0;
+  text-align: center; }
+
+section {
+  margin: 2rem 0 10rem; }
+
+section,
+section div {
+  background: rgba(204, 63, 133, 0.3); }
+
+.latest-video,
+.latest-blog,
+.feature__content,
+.nested-column {
+  min-height: 200px; }
+
+.nested-grid .sidebar {
+  min-height: 100px; }
+.nested-grid .main-content {
+  overflow: hidden; }
+
+.article-layout__hero {
+  min-height: 150px;
+  margin-bottom: 2rem; }
+
+.article-layout__sidebar {
+  min-height: 300px;
+  margin-bottom: 2rem; }
+
+.article-layout__main {
+  min-height: 400px;
+  margin-bottom: 2rem; }
+
+/*# sourceMappingURL=style.css.map */

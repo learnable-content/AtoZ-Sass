@@ -1,0 +1,71 @@
+@import 'page-styles';
+
+body {
+	max-width:700px;
+	margin:0 auto;
+}
+h2, h3 {
+	margin:0 0 1em;
+	padding:1em 0 0;
+	text-align:center;
+}
+section {
+	margin:2rem 0 10rem;
+}
+
+section,
+section div {
+	background:rgba( #cc3f85, 0.3 );
+}
+
+.latest-video,
+.latest-blog,
+.feature__content,
+.nested-column {
+	min-height:200px;
+}
+
+.latest-posts {
+	
+}
+.latest-video,
+.latest-blog {
+	
+}
+
+
+.nested-grid {
+	
+
+	.sidebar {
+		min-height:100px;
+	}
+	.main-content {
+		overflow:hidden;
+	}
+	.nested-container {
+		
+	}
+	.nested-column {
+		
+	}
+}
+
+.article-layout {
+
+}
+
+.article-layout__hero {
+	min-height:150px;
+	margin-bottom: 2rem;
+}
+
+.article-layout__sidebar {
+	min-height:300px;
+	margin-bottom:2rem;
+}
+
+.article-layout__main {
+	min-height:400px;
+	margin-bottom:2rem;
+}

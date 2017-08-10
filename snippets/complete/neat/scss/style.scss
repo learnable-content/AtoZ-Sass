@@ -1,0 +1,95 @@
+@import 'page-styles';
+@import 'neat/neat';
+
+body {
+	max-width:700px;
+	margin:0 auto;
+}
+h2, h3 {
+	margin:0 0 1em;
+	padding:1em 0 0;
+	text-align:center;
+}
+section {
+	margin:2rem 0 10rem;
+}
+
+section,
+section div {
+	background:rgba( #cc3f85, 0.3 );
+}
+
+.latest-video,
+.latest-blog,
+.feature__content,
+.nested-column {
+	min-height:200px;
+}
+
+.latest-posts {
+	@include grid-container;
+}
+.latest-video,
+.latest-blog {
+	@include grid-column( 6 );
+}
+
+
+.nested-grid {
+	@include grid-container;
+
+	.sidebar {
+		@include grid-column( 4 );
+		min-height:100px;
+	}
+	.main-content {
+		@include grid-column( 8 );
+		overflow:hidden;
+	}
+	.nested-container {
+		@include grid-container;
+		@include grid-collapse;
+	}
+	.nested-column {
+		@include grid-column( 6 );
+	}
+}
+
+$article-layout-grid: (
+	columns: 1,
+	gutter: 2rem
+);
+$article-layout-grid--tablet-up: (
+	columns: 5,
+	gutter: 2rem,
+	media: "( min-width: 800px )"
+);
+.article-layout {
+	@include grid-container;
+}
+
+.article-layout__hero {
+	@include grid-column(1, $article-layout-grid);
+	min-height:150px;
+	margin-bottom: 2rem;
+}
+
+.article-layout__sidebar {
+	@include grid-column(1, $article-layout-grid);
+	min-height:300px;
+	margin-bottom:2rem;
+
+	@include grid-media($article-layout-grid--tablet-up) {
+		@include grid-column(2);
+	}
+}
+
+.article-layout__main {
+	@include grid-column(1, $article-layout-grid);
+	min-height:400px;
+	margin-bottom:2rem;
+
+	@include grid-media($article-layout-grid--tablet-up) {
+		@include grid-column(3);
+	}
+}
