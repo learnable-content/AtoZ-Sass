@@ -1,0 +1,6 @@
+body {
+	&:before {
+		display:none!important;
+		content: '{ "colors": { "pink": "#cc3f85", "blue": "#94d6ed", "purple": "#a485fb", "yellow": "#e3db6f" } }';
+	}
+}
