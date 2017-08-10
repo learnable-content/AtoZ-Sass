@@ -1,0 +1,41 @@
+$base-font-size: 16px;
+
+@function strip-units( $length ) {
+	@return $length / ( ( $length * 0 ) + 1 );
+}
+
+@function px-to-rem( $value ) {
+	@if not unitless( $value ) {
+		$value: strip-units( $value );
+	}
+	$base-font-size: strip-units( $base-font-size );
+
+	@return ( $value / $base-font-size ) * 1rem;
+}
+
+@function bp-to-em( $value ) {
+	@if unit( $value ) == 'px' or unitless( $value ) {
+		$value: px-to-rem( $value );
+	}
+	@return strip-units( $value ) * 1em;
+}
+h1 {
+	font-size: 2rem;
+
+	@media screen and ( min-width: #{ bp-to-em( 500 ) } ) {
+		font-size: 3rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
