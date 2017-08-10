@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0; }
+  body:after {
+    content: "tnioPetiS";
+    display: block;
+    margin: auto;
+    color: #339bcb;
+    font-size: 3em;
+    font-family: sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
