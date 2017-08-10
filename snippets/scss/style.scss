@@ -1,0 +1,9 @@
+// Math Example
+
+$a: 20em;
+$b: 10px;
+
+div {
+	// width: $a + $b; // will throw mixed units error
+	width: calc( #{$a} + #{$b} );
+}
