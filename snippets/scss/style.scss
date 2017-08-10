@@ -1,0 +1,73 @@
+body {
+	margin:0;
+	font-family:Avenir;
+}
+.swatches {
+	list-style:none;
+	margin:1rem;
+	padding:0;
+}
+.swatch {
+	display:inline-flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	width:200px;
+	height:200px;
+	margin:0.25rem;
+	border:1px solid #000;
+
+	text-align:center;
+
+	&:before { content: "color name" }
+	&:after  { content: "hex code" }
+}
+$names: white, red, green, blue, black;
+$colors: #fff, #cc3f85, #9be22d, #66d9ef, #000;
+
+$i:1;
+@each $name in $names {
+	.swatch--#{ $name } {
+		$color: nth( $colors, $i );
+		background:$color;
+
+		@if lightness( $color ) < 50% {
+			color:#fff;
+		}
+
+		&:before {
+			content:"#{ $name }";
+		}
+		&:after {
+			content:"#{ $color }";
+		}
+	}
+	$i: $i + 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

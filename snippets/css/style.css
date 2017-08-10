@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Avenir; }
+
+.swatches {
+  list-style: none;
+  margin: 1rem;
+  padding: 0; }
+
+.swatch {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  margin: 0.25rem;
+  border: 1px solid #000;
+  text-align: center; }
+  .swatch:before {
+    content: "color name"; }
+  .swatch:after {
+    content: "hex code"; }
+
+.swatch--white {
+  background: #fff; }
+  .swatch--white:before {
+    content: "white"; }
+  .swatch--white:after {
+    content: "#fff"; }
+
+.swatch--red {
+  background: #cc3f85; }
+  .swatch--red:before {
+    content: "red"; }
+  .swatch--red:after {
+    content: "#cc3f85"; }
+
+.swatch--green {
+  background: #9be22d; }
+  .swatch--green:before {
+    content: "green"; }
+  .swatch--green:after {
+    content: "#9be22d"; }
+
+.swatch--blue {
+  background: #66d9ef; }
+  .swatch--blue:before {
+    content: "blue"; }
+  .swatch--blue:after {
+    content: "#66d9ef"; }
+
+.swatch--black {
+  background: #000;
+  color: #fff; }
+  .swatch--black:before {
+    content: "black"; }
+  .swatch--black:after {
+    content: "#000"; }
+
+/*# sourceMappingURL=style.css.map */
