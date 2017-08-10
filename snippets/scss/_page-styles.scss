@@ -1,0 +1,31 @@
+body {
+	background:#f9f9f9;
+	font-family: 'Avenir Next', 'Avenir';
+}
+.button {
+	margin:1em 0;
+	color:#fff;
+	background:#999;
+	padding:0.5em 2em;
+	text-decoration: none;
+	font-size:1.2em;
+}
+.button-rounded { border-radius: 4px; }
+.blue { background:darken( #66D9EF, 10% ); }
+.pink { background:#cc3f85; }
+.green { background: darken( #9BE22D, 10% ); }
+.purple { background:#AE81FF; }
+.orange { background: #FFAB1D; }
+
+.media {
+	border:1px solid;
+	padding:1em;
+}
+.media__image {
+	border:1px solid #999;
+}
+.box {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
